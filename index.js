@@ -69,6 +69,12 @@ app.post("/api/checkout/mercadopago", async (req, res) => {
     });
 });
 
+app.get("/", (req, res) => {
+
+    res.json("Probando api");
+
+})
+
 /*
 mercadopago.preferences.create(preference)
 .then(function(response){
